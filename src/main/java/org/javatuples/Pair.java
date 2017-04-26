@@ -19,6 +19,7 @@
  */
 package org.javatuples;
 
+import java.io.Serializable;
 import java.util.Collection;
 import java.util.Iterator;
 
@@ -38,7 +39,7 @@ import org.javatuples.valueintf.IValue1;
 public final class Pair<A,B> 
         extends Tuple
         implements IValue0<A>,
-                   IValue1<B> {
+                   IValue1<B>, Serializable {
 
     private static final long serialVersionUID = 2438099850625502138L;
 

@@ -19,6 +19,7 @@
  */
 package org.javatuples;
 
+import java.io.Serializable;
 import java.util.Collection;
 import java.util.Iterator;
 
@@ -44,7 +45,7 @@ public final class Quintet<A,B,C,D,E>
                    IValue1<B>,
                    IValue2<C>,
                    IValue3<D>,
-                   IValue4<E> {
+                   IValue4<E>, Serializable {
 
     private static final long serialVersionUID = -1579008485383872628L;
 

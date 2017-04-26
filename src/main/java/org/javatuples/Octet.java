@@ -19,6 +19,7 @@
  */
 package org.javatuples;
 
+import java.io.Serializable;
 import java.util.Collection;
 import java.util.Iterator;
 
@@ -50,7 +51,7 @@ public final class Octet<A,B,C,D,E,F,G,H>
                    IValue4<E>,
                    IValue5<F>,
                    IValue6<G>,
-                   IValue7<H> {
+                   IValue7<H>, Serializable {
 
     private static final long serialVersionUID = -1187955276020306879L;
 

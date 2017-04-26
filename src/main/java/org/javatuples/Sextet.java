@@ -19,6 +19,7 @@
  */
 package org.javatuples;
 
+import java.io.Serializable;
 import java.util.Collection;
 import java.util.Iterator;
 
@@ -46,7 +47,7 @@ public final class Sextet<A,B,C,D,E,F>
                    IValue2<C>,
                    IValue3<D>,
                    IValue4<E>,
-                   IValue5<F> {
+                   IValue5<F>, Serializable {
 
     private static final long serialVersionUID = -367678052827219823L;
 

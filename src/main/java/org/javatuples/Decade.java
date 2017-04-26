@@ -19,6 +19,7 @@
  */
 package org.javatuples;
 
+import java.io.Serializable;
 import java.util.Collection;
 import java.util.Iterator;
 
@@ -54,7 +55,7 @@ public final class Decade<A,B,C,D,E,F,G,H,I,J>
                    IValue6<G>,
                    IValue7<H>,
                    IValue8<I>,
-                   IValue9<J> {
+                   IValue9<J>, Serializable {
 
     private static final long serialVersionUID = -1607420937567707033L;
 

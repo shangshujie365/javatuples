@@ -19,6 +19,7 @@
  */
 package org.javatuples;
 
+import java.io.Serializable;
 import java.util.Collection;
 import java.util.Iterator;
 
@@ -40,7 +41,7 @@ public final class Triplet<A,B,C>
         extends Tuple
         implements IValue0<A>,
                    IValue1<B>,
-                   IValue2<C> {
+                   IValue2<C>, Serializable {
 
     private static final long serialVersionUID = -1877265551599483740L;
 
